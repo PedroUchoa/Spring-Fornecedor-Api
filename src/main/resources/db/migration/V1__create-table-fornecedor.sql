@@ -1,0 +1,9 @@
+CREATE TABLE fornecedores(
+   id VARCHAR(255) NOT NULL PRIMARY KEY UNIQUE,
+   name VARCHAR(100) NOT NULL UNIQUE,
+   email VARCHAR(100) NOT NULL,
+   phone VARCHAR(11) NOT NULL,
+   start_date DATE NOT NULL,
+   end_date DATE,
+   is_active BOOLEAN NOT NULL
+)
